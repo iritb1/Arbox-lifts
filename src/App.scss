@@ -1,0 +1,42 @@
+body {
+
+}
+.btn-holder {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100px;
+  justify-content: space-evenly;
+  height: 700px;
+}
+
+
+.floor-holder{
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-evenly;
+  margin-bottom: 6%;
+  width: max-content;
+}
+
+
+
+.flex{
+  margin: 10%;
+}
+.ctn-holder{
+  // position: absolute;
+   top: 10%;
+  // left: 65%;
+}
+
+.elevetors{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 600px;
+}
+
+.main-space{
+  display: flex;
+}

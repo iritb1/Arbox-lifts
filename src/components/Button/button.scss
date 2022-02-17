@@ -1,0 +1,29 @@
+.button-container,
+.button-wrapper,
+.button-inner{
+    display: inline;
+}
+
+.button-wrapper{
+    padding: .7px;
+
+    button {
+        padding: 8px;
+        justify-content: center;
+        border-radius: 42%;
+        border: 8px solid grey;
+        background-color: #fff;
+        cursor: pointer;
+        outline: none;
+        font-size: 1.5em;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        transition: all .8s;
+
+        &:hover{
+          border: 8px solid transparent;
+          background-color: grey;
+          color: #fff;
+          border-radius: 35%;
+        }
+    }
+}
